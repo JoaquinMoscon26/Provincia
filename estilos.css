@@ -1,0 +1,26 @@
+h1{
+    background-image: url("imagenes/manzana.jpeg");
+    color:#f0f8ff
+
+}
+h2{
+    color:#d10606;
+}
+body{
+    background-color: #8EB553;
+}
+.centrar-parrafos{
+    color:#ECFAD7
+}
+
+.centrar-parrafos{
+    text-align: center;
+}
+
+.color-indice{
+    color:#382d2d;
+}
+
+.color-sub{
+    color:#424e4a;
+}
