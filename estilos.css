@@ -1,25 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@1,300&display=swap');
+
 h1{
     background-image: url("imagenes/manzana.jpeg");
-    color:#f0f8ff
+    color:#f0f8ff;
+    font-size: 4em;
 
 }
 h2{
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Raleway', sans-serif;
     color:#d10606;
+    font-size: 2em
+}
+
+.indice{
+    color:#382d2d;
+    font-size: 3em;
+}
+#subrayar{
+    text-decoration: underline;
 }
 body{
     background-color: #8EB553;
 }
 .centrar-parrafos{
-    color:#ECFAD7
-}
-
-.centrar-parrafos{
+    color:#ECFAD7;
     text-align: center;
+    font-size: 18px;
 }
 
-.color-indice{
-    color:#382d2d;
+.alinear-justificado{
+
+    text-align: justify;
 }
+
 
 .color-sub{
     color:#424e4a;
