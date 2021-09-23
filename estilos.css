@@ -40,3 +40,15 @@ body{
 .color-sub{
     color:#424e4a;
 }
+
+#footer{
+
+    background-color:#1d1a1a ;
+    height: 200px;
+}
+
+.p-footer{
+
+    color: #ECFAD7;
+    font-size: 15px;
+}
