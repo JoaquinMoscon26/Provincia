@@ -20,21 +20,77 @@ h2{
     color:#382d2d;
     font-size: 3em;
 }
+
+.color_fondo_Pagina_Rio_negro{
+    background-color: #5e703e;
+    color:aliceblue;
+    font-size: 20px;
+
+}
+
 #subrayar{
     text-decoration: underline;
 }
+
+
+/*BODY*/
+
 body{
     background-color: #8EB553;
-}
+     /*MARGENES*/
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+} 
+
 .centrar-parrafos{
     color:#ECFAD7;
     text-align: center;
     font-size: 18px;
-}
 
+  
+}
 .tamaño-subtitulo-poblacion{
     font-size:0.99em;
 }
+
+/*TABLA*/
+
+table{
+
+    height:400px;
+    border: black solid 2px;
+    padding: right 100px;
+    margin: 0 auto;
+
+    /*teniendo un elemento con ancho fijo, centro dicho elemento.
+    0 significa 0 margenes para el top y el bottom.
+    auto significa margen de tamaño automático en relación al ancho de la pantalla
+    */
+
+}
+.header-tabla{
+
+    background-color: #2c2727;
+    color:aliceblue
+}
+
+td{
+    border:black solid 2px;
+}
+
+.par-tabla{
+    background-color: #5e703e;
+    color: aliceblue;
+}
+
+.impar-tabla{
+    background-color: #424e4a;
+    color: aliceblue;
+}
+
+/*párrafo*/
+
 .alinear-justificado{
 
     text-align: justify;
@@ -45,15 +101,44 @@ body{
     color:#424e4a;
 }
 
-#footer{
+
+/*FOOTER*/
+footer{
 
     background-color:#1d1a1a ;
-    height: 200px;
+    height: 300px;
+    
+
+    
 }
 
 .p-footer{
 
     color: #ECFAD7;
     font-size: 15px;
-    text-align:center
+    text-align:center;
+
+    /* MARGE INTERNOOOOOOOOOOOO*/
+
+    /* padding-bottom: ; */
+    padding-top: 70px;
+    /*padding-right: ; */
+    /* padding-left: ; */
 }
+
+/* imagen*/
+
+footer p img{ /*esto es concatenar etiquetas que están dentro de otras etiquetas*/
+
+    float:right;
+    padding-right:100px
+}
+
+.enlace-footer{
+    
+    text-align: right;
+    padding-bottom: 100px;
+    
+}
+
+
