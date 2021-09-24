@@ -4,6 +4,7 @@ h1{
     background-image: url("imagenes/manzana.jpeg");
     color:#f0f8ff;
     font-size: 4em;
+    
 
 }
 h2{
@@ -31,6 +32,9 @@ body{
     font-size: 18px;
 }
 
+.tamaño-subtitulo-poblacion{
+    font-size:0.99em;
+}
 .alinear-justificado{
 
     text-align: justify;
