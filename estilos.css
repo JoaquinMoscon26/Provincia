@@ -13,13 +13,25 @@ h2{
 
     font-family: 'Raleway', sans-serif;
     color:#d10606;
-    font-size: 2em
+    font-size: 2em;
+    margin-left: 20px;
 }
 
+#subrayar{
+    text-decoration: underline;
+}
+
+nav{
+    border-left: 10px solid #314119;
+    margin-left:60px
+}
 .indice{
     color:#382d2d;
     font-size: 3em;
+    margin-left: 60px;
 }
+
+
 
 .color_fondo_Pagina_Rio_negro{
     background-color: #5e703e;
@@ -28,9 +40,7 @@ h2{
 
 }
 
-#subrayar{
-    text-decoration: underline;
-}
+
 
 
 /*BODY*/
@@ -50,8 +60,24 @@ body{
 
   
 }
+
+/*DIVISIÓN ADMINISTRATIVA*/
+.division-administrativa{
+    margin-left:60px;
+}
+
+/*POBLACIÓN*/
 .tamaño-subtitulo-poblacion{
     font-size:0.99em;
+}
+
+.grafica-poblacion{
+    margin-left:30px;
+}
+
+#mapa-rio-negro{
+    float:right;
+    margin-right: 60px;
 }
 
 /*TABLA*/
@@ -60,8 +86,8 @@ table{
 
     height:400px;
     border: black solid 2px;
-    padding: right 100px;
-    margin: 0 auto;
+    padding-left: 0px;
+    margin: 30px auto;
 
     /*teniendo un elemento con ancho fijo, centro dicho elemento.
     0 significa 0 margenes para el top y el bottom.
@@ -89,16 +115,33 @@ td{
     color: aliceblue;
 }
 
-/*párrafo*/
+#cuestiones-limitrofes{
+    margin-left: 60px;
+}
+/*PARRAFO*/
 
 .alinear-justificado{
 
     text-align: justify;
+    margin: 0px 60px;
 }
 
-
+/*SUBTITULOS DE HISTORIA*/
 .color-sub{
     color:#424e4a;
+    margin: 0px 60px
+}
+
+/*ECONOMÍA*/
+#economia{
+
+    margin-left:60px;
+
+}
+
+main{
+
+    margin-bottom:40px;
 }
 
 
@@ -107,6 +150,7 @@ footer{
 
     background-color:#1d1a1a ;
     height: 300px;
+    
     
 
     
@@ -124,6 +168,13 @@ footer{
     padding-top: 70px;
     /*padding-right: ; */
     /* padding-left: ; */
+}
+
+#footer-cet30{
+    color: #ECFAD7;
+    font-size: 20px;
+    text-align:center;
+    padding-left: 185px;
 }
 
 /* imagen*/
